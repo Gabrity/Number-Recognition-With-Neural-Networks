@@ -37,8 +37,14 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MathNet.Numerics, Version=4.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\MathNet.Numerics.4.7.0\lib\net461\MathNet.Numerics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,10 +55,14 @@
   <ItemGroup>
     <Compile Include="Classes\ActivationFunction\StepActivationFunction.cs" />
     <Compile Include="Classes\ActivationFunction\SigmoidActivationFunction.cs" />
+    <Compile Include="Classes\RandomGenerator\NormalDistributionRandomGenerator.cs" />
+    <Compile Include="Classes\RandomGenerator\UniformRandomGenerator.cs" />
     <Compile Include="Factories\StandardNeuralNetworkFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NeuralNetworks.Public\NeuralNetworks.Public.csproj">
       <Project>{6222425e-1768-40ef-8198-5eb72d0d083c}</Project>
