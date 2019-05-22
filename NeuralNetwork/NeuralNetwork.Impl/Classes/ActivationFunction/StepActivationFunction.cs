@@ -1,5 +1,4 @@
 ﻿using NeuralNetworks.Public.Interfaces.ActivationFunction;
-using System;
 
 namespace NeuralNetworks.Impl.Classes.ActivationFunction
 {
