@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NeuralNetworks.Impl.Factories;
 
 namespace MainProject
 {
@@ -10,6 +6,9 @@ namespace MainProject
     {
         static void Main(string[] args)
         {
+            var neuralNetworkFactory = new StandardNeuralNetworkFactory();
+
+
         }
     }
 }
