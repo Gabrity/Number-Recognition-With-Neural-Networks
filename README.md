@@ -8,7 +8,7 @@ The goal of this project is to create a deep learining neural network capable of
 
 Demo project for showing the use of:
 
--Design patterns
--SOLID design principles
--Unit testing (in progress)
+- Design patterns
+- SOLID design principles
+- Unit testing (in progress)
 
